@@ -1,7 +1,6 @@
 import React from 'react';
 import CalculatorForm from './components/CalculatorForm';
 import TitleSection from './components/TitleSection';
-import Logo from './components/Logo';
 import './css/App.css';
 
 const App = () => {
