@@ -1,0 +1,75 @@
+/* Container do formulário, centralizado e compacto */
+.calculator-form {
+    width: 100%;
+    max-width: 400px;
+    height: 70%;
+    margin-top: 20%;
+    background: #fff;
+    border-radius: 28px;
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.10);
+    padding: 36px 32px 28px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calculator-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.calculator-form label {
+    font-size: 1rem;
+    color: #222;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.calculator-form input[type="number"] {
+    width: 90%;
+    padding: 12px 16px;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 18px;
+    font-size: 1rem;
+    background: #f7f7f7;
+    margin-top: 2px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.calculator-form input[type="number"]:focus {
+    border: 1.5px solid #002a30;
+    background: #fff;
+}
+
+.calculator-form button[type="submit"] {
+    width: 100%;
+    background: #002a30;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    padding: 14px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+
+.calculator-form button[type="submit"]:hover {
+    background: #002a30;
+}
+
+.calculator-form .result {
+    margin-top: 22px;
+    text-align: center;
+}
+
+.calculator-form .result h2 {
+    color: #002a30;
+    font-size: 1.3rem;
+    margin: 0;
+}

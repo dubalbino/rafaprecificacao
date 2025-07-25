@@ -1,0 +1,22 @@
+/* --- DESKTOP E GERAL --- */
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto 24px auto;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* --- MOBILE (até 600px) --- */
+@media (max-width: 600px) {
+    .logo {
+        width: 140px;
+        margin: 14px auto 18px auto;
+    }
+}
